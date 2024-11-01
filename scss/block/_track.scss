@@ -1,0 +1,25 @@
+.track {
+  background-image: url(/img/gran_final_01\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  &__conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 800px;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 440px;
+  }
+  &__image {
+    display: flex;
+    justify-content: flex-end;
+  }
+  &__text {
+  }
+}

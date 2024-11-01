@@ -1,0 +1,21 @@
+.command {
+  &__conteiner {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  &__title {
+    font-size: 32px;
+    font-weight: 300;
+  }
+  &__text {
+    max-width: 350px;
+    line-height: 1.3;
+  }
+  &__image {
+  }
+}

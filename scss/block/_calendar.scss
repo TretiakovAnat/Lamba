@@ -1,0 +1,32 @@
+.calendar {
+  &__conteiner {
+    display: flex;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  &__title {
+    max-width: 420px;
+    font-size: 32px;
+    font-weight: 300;
+  }
+  &__text {
+    max-width: 380px;
+  }
+  &__data {
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  &__item {
+  }
+}

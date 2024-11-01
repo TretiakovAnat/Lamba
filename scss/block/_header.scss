@@ -1,0 +1,45 @@
+.header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  &__conteiner {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+  }
+  &__menu {
+    display: flex;
+    gap: 42px;
+  }
+  &__logo {
+    margin-right: 74px;
+  }
+}
+.menu {
+  display: flex;
+
+  &__body {
+  }
+  .menu__list {
+    display: flex;
+    gap: 42px;
+  }
+
+  &__item {
+    font-size: 16px;
+    :hover {
+      transition: all 0.5s ease;
+      text-decoration: underline;
+      color: var(--gold);
+    }
+  }
+  &__link {
+    :hover {
+      transition: all 0.5s ease;
+      text-decoration: underline;
+      color: var(--gold);
+    }
+  }
+}

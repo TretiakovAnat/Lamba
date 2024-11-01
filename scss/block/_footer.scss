@@ -1,0 +1,57 @@
+.footer {
+  background: #363636;
+  color: #fff;
+
+  &__conteiner {
+  }
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  &__all {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  &__all-title {
+    padding-bottom: 10px;
+  }
+  &__tickets {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  &__ticket {
+    padding-bottom: 10px;
+  }
+  &__social {
+    display: flex;
+    gap: 10px;
+  }
+  &__addres {
+  }
+  &__politics {
+    padding-top: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.addres {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: flex-end;
+
+  &__title {
+  }
+  &__subtitle {
+  }
+}

@@ -1,0 +1,70 @@
+.blog {
+  &__conteiner {
+  }
+  &__title {
+    padding-bottom: 30px;
+  }
+  &__content {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__worlds {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  &__interv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  &__chemp {
+    font-size: 12;
+    color: var(--gold);
+  }
+  &__name {
+    font-weight: 500;
+  }
+  &__text {
+    overflow: hidden;
+    height: 69px;
+    line-height: 1.2;
+    max-width: 440px;
+  }
+  &__image {
+  }
+}
+
+.swiper {
+}
+.swiper-wrapper {
+  display: flex;
+
+  gap: 40px;
+}
+.blog__swiper {
+  &-slide {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 420px;
+  }
+  &-title {
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 440px;
+  }
+  &-text {
+    max-width: 440px;
+    height: 85px;
+    overflow: hidden;
+  }
+  &-link {
+    font-size: 12px;
+  }
+  &-button-prev {
+  }
+  &-button-next {
+  }
+}
