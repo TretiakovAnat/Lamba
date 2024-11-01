@@ -1,3 +1,4 @@
+
 const endData = new Date("February 19, 2025, 23:59:59");
 
 const daysElement = document.querySelector("#days");
