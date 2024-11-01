@@ -84,7 +84,7 @@ button {
   max-width: 1200px;
   display: flex;
   justify-content: space-between;
-  padding: 24px;
+  padding: 30px;
 }
 .header__menu {
   display: flex;
