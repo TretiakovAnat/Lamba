@@ -1,25 +1,3 @@
-const swiper = new Swiper(".blog__swiper", {
-  // Optional parameters
-  // direction: 'vertical',
-  loop: true,
-
-  // If we need pagination
-  pagination: {
-    el: ".swiper-pagination",
-  },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: ".blog__swiper-button-next",
-    prevEl: ".blog__swiper-button-prev",
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: ".swiper-scrollbar",
-  },
-});
-
 const endData = new Date("February 19, 2025, 23:59:59");
 
 const daysElement = document.querySelector("#days");
