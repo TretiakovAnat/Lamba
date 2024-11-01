@@ -118,7 +118,7 @@ button {
 .hero {
   position: relative;
   min-height: 800px;
-  background-image: url(/img/Hero.png);
+  background-image: url(../img/Hero.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -265,7 +265,7 @@ button {
   gap: 20px;
 }
 .track {
-  background-image: url(/img/gran_final_01\ 1.png);
+  background-image: url(../img/gran_final_01\ 1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
